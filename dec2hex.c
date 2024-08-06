@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define POLYNOMIAL_FORMAT "%x * 16^%d\n"
 
 int main(int argc, char *argv[]) {
 
