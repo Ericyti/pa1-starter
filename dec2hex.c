@@ -1,13 +1,13 @@
 /**
  * Assignment-1
- * CSE30 Username: cs30s122 (fill out your username)
- * Class: UCSD CSE30-S122
+ * Username: _______ (fill out your username here)
+ * Class: UCSD CSE30-S224
  */
 #include <stdio.h>
 #include <stdlib.h>
 
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
 
 
     if (argc != 2) {

@@ -16,7 +16,7 @@ OBJS = dec2hex.o
 CC = gcc
 DEBUG = -g
 WARN = -Wall -Wextra
-CFLAGS = -I. -std=gnu11 $(DEBUG) $(WARN)
+CFLAGS = -I. -std=c11 $(DEBUG) $(WARN)
 LIBS = 
 
 .PHONY: clean
