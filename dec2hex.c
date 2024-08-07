@@ -20,7 +20,15 @@ int main(int argc, char *argv[]) {
     unsigned int base10 = (unsigned) atoi(argv[1]);
   
     // put your code here (use as many lines as you need)
-
-	d
+    int i = 0;
+    if (base10 == 0) {
+	printf(POLYNOMIAL_FORMAT, 0, 0);    
+    }
+    while (base10 != 0) {
+	int remainder = base10 % 16; 
+	printf(POLYNOMIAL_FORMAT, remainder, i);
+	i++;
+	base10 = base10 / 16;
+    }
     return EXIT_SUCCESS; 
 }
